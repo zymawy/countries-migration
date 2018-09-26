@@ -1,0 +1,21 @@
+{
+    "name": "zymawy/countries-migration",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "zymawy",
+            "email": "zymawy@gmail.com"
+        }
+    ],
+    "description": "This Package Allow You To Manage Countries Names,Status, Regions, Flag Svg And Icons",
+    "require": {
+        "pragmarx/countries": "dev-master",
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zymawy\\CountriesMigrate\\":"src/"
+        }
+    }
+}
